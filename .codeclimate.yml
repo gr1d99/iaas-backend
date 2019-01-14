@@ -15,15 +15,11 @@ engines:
     enabled: true
   rubocop:
     enabled: true
-    checks:
-      Rubocop/Style/FrozenStringLiteralComment:
-        enabled: false
   reek:
     enabled: true
 ratings:
   paths:
   - Gemfile.lock
-  - "**.erb"
   - "**.rb"
   - "**.rake"
 exclude_paths:
