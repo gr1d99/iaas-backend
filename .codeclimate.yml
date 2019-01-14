@@ -15,6 +15,9 @@ engines:
     enabled: true
   rubocop:
     enabled: true
+    checks:
+      Rubocop/Style/Documentation:
+        enabled: false
   reek:
     enabled: true
 ratings:
